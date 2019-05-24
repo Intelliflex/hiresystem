@@ -19,8 +19,13 @@ import store from './store/create'
 function App() {
   return (
     <Provider store={store}>
-      <div className='App'>
-        <h1>Hire System - React-Redux Demo</h1>
+      <div className='App container'>
+        <nav class='navbar navbar-dark bg-primary rounded'>
+          <h2 className='text-light'>
+            Hire System - React-Redux Learning Module
+          </h2>
+        </nav>
+        <p />
         <HireList />
         <ItemList />
         <AddTicket />

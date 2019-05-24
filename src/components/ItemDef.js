@@ -10,6 +10,7 @@ const ItemDef = props => {
   //BRING IN DISPATCH FROM REDUX STORE
   const dispatch = useDispatch()
 
+  //DEFINE SELECTOR - EQUIV TO MAPSTATETOPROPS
   const { itemDef } = useSelector(state => ({
     itemDef: state.pendingItem
   }))
@@ -46,7 +47,9 @@ const ItemDef = props => {
 
   return (
     <div>
-      <p>Define new items to be added below - before clicking Add Item</p>
+      <p>
+        Define new items to be added below - before clicking Add Item tp Input
+      </p>
       <input
         value={item.desc}
         type='text'
@@ -67,9 +70,13 @@ const ItemDef = props => {
         onBlur={e => dispatch(defineItem(item))}
       />
       &nbsp;
-      <button onClick={clearIt}>CLEAR ITEM</button>
+      <button onClick={clearIt} className='btn-warning rounded'>
+        CLEAR ITEM
+      </button>
       &nbsp;
-      <button onClick={addIt}>ADD ITEM TO INPUT</button>
+      <button onClick={addIt} className='btn-success rounded'>
+        ADD ITEM TO INPUT
+      </button>
     </div>
   )
 }

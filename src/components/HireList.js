@@ -58,6 +58,7 @@ const HireList = props => {
                   onClick={() => {
                     onClickShowHire(this, ticket.hireno)
                   }}
+                  className='btn-primary rounded'
                 >
                   SHOW ITEMS
                 </button>
@@ -67,6 +68,7 @@ const HireList = props => {
                   onClick={() => {
                     onClickAddItems(this, ticket.hireno)
                   }}
+                  className='btn-success rounded'
                 >
                   ADD ITEM
                 </button>
@@ -76,6 +78,7 @@ const HireList = props => {
                   onClick={() => {
                     onClickDeleteHire(this, ticket.hireno)
                   }}
+                  className='btn-danger rounded'
                 >
                   DELETE
                 </button>

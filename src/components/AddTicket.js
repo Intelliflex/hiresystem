@@ -28,6 +28,7 @@ const AddTicket = props => {
   return (
     <div>
       <form onSubmit={onSubmit}>
+        <p>Create a new ticket by assigning name to ticket holder</p>
         <input
           type='text'
           name='name'
@@ -36,7 +37,11 @@ const AddTicket = props => {
           onChange={onChange}
         />
         &nbsp;
-        <input type='submit' value='ADD TICKET' />
+        <input
+          type='submit'
+          className='btn-success rounded'
+          value='ADD TICKET'
+        />
       </form>
       <p />
     </div>

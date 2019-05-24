@@ -60,9 +60,13 @@ class ItemDefClass extends Component {
             onChange={this.onChange}
           />
           &nbsp;
-          <button onClick={this.clearIt}>CLEAR ITEM</button>
+          <button onClick={this.clearIt} className='btn-warning rounded'>
+            CLEAR ITEM
+          </button>
           &nbsp;
-          <button onClick={this.addIt}>ADD ITEM TO INPUT</button>
+          <button onClick={this.addIt} className='btn-success rounded'>
+            ADD ITEM TO INPUT
+          </button>
         </div>
       </div>
     )
