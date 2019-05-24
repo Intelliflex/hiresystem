@@ -1,0 +1,1 @@
+{"version":3,"sources":["HireList.css"],"names":[],"mappings":"AAAA,MACE,wBACF,CACA,YAGE,qBAAuB,CACvB,WACF,CAEA,UACE,gBACF","file":"main.578da264.chunk.css","sourcesContent":["table {\r\n  border-collapse: collapse;\r\n}\r\ntable,\r\nth,\r\ntd {\r\n  border: 1px solid black;\r\n  padding: 5px;\r\n}\r\n\r\n.td-right {\r\n  text-align: right;\r\n}\r\n"]}

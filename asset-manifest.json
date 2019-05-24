@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hiresystem/static/css/main.578da264.chunk.css",
+    "main.js": "/hiresystem/static/js/main.07c1ac0b.chunk.js",
+    "main.js.map": "/hiresystem/static/js/main.07c1ac0b.chunk.js.map",
+    "runtime~main.js": "/hiresystem/static/js/runtime~main.4a10240e.js",
+    "runtime~main.js.map": "/hiresystem/static/js/runtime~main.4a10240e.js.map",
+    "static/js/2.561bca38.chunk.js": "/hiresystem/static/js/2.561bca38.chunk.js",
+    "static/js/2.561bca38.chunk.js.map": "/hiresystem/static/js/2.561bca38.chunk.js.map",
+    "index.html": "/hiresystem/index.html",
+    "precache-manifest.039bc5df6594644567166e89ba3e95cc.js": "/hiresystem/precache-manifest.039bc5df6594644567166e89ba3e95cc.js",
+    "service-worker.js": "/hiresystem/service-worker.js",
+    "static/css/main.578da264.chunk.css.map": "/hiresystem/static/css/main.578da264.chunk.css.map"
+  }
+}
